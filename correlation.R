@@ -121,6 +121,8 @@ plot(data_final_3$age_start, data_final_3$ldl_fpg) #High in young people, 0 by 7
 plot(data_final_3$age_start, data_final_3$bmi_fpg) #Consistent for all ages 
 
 #Plots for Greg 
+par( mfrow= c(3,2) )
+
 plot(data_final_3$age_start, data_final_3$sbp_bmi, main='SBP and BMI Correlation') 
 loessMod10 <- loess(sbp_bmi ~ age_start, data=data_final_3)
 j <- order(data_final_3$age_start)
