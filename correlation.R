@@ -206,13 +206,13 @@ counter = 1
 for (i in 1:13){
   age_low = 25 + (5*(i-1))
   age_high = age_low + 5 
-  data_current <- data2[(data2$age_year>age_low) & (data2$age_year<age_high)]
-  sbp_ldl_spea = cor.test(data2$bpsys, data2$lbdldl, method = c("spearman"))
+  data_current <- data[(data$age_year>age_low) & (data$age_year<age_high)]
+  sbp_ldl_spea = cor.test(data$bpsys, data$lbdldl, method = c("spearman"))
   sbp_bmi_spea = cor.test(data_current$bpsys, data_current$bmi, method = c("spearman"))
-  ldl_bmi_spea = cor.test(data2$lbdldl, data2$bmi, method = c("spearman"))
-  sbp_fpg_spea = cor.test(data2$bpsys, data2$lbxglu, method = c("spearman"))
+  ldl_bmi_spea = cor.test(data$lbdldl, data$bmi, method = c("spearman"))
+  sbp_fpg_spea = cor.test(data$bpsys, data$lbxglu, method = c("spearman"))
   ldl_fpg_spea = 0
-  bmi_fpg_spea = cor.test(data2$bmi, data2$lbxglu, method = c("spearman"))
+  bmi_fpg_spea = cor.test(data$bmi, data$lbxglu, method = c("spearman"))
   data_final_5[counter,1] = age_low 
   data_final_5[counter,2] = age_high
   data_final_5[counter,3] = sbp_ldl_spea$estimate
