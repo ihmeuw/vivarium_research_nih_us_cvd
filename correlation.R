@@ -62,12 +62,44 @@ for (i in 1:13){
 
 data_final_2
 
-plot(data_final_2$age_start, data_final_2$sbp_ldl)
-plot(data_final_2$age_start, data_final_2$sbp_bmi)
-plot(data_final_2$age_start, data_final_2$ldl_bmi)
-plot(data_final_2$age_start, data_final_2$sbp_fpg)
-plot(data_final_2$age_start, data_final_2$ldl_fpg)
-plot(data_final_2$age_start, data_final_2$bmi_fpg)
+#Plots for Greg 
+par( mfrow= c(3,2) )
+
+plot(data_final_2$age_start, data_final_2$sbp_bmi, main='SBP and BMI Correlation') 
+loessMod10 <- loess(sbp_bmi ~ age_start, data=data_final_2)
+j <- order(data_final_2$age_start)
+lines(data_final_2$age_start[j],loessMod10$fitted[j],col="red",lwd=3)
+abline(h=0)
+
+plot(data_final_2$age_start, data_final_2$sbp_ldl, main='SBP and LDL-C Correlation') 
+loessMod10 <- loess(sbp_ldl ~ age_start, data=data_final_2)
+j <- order(data_final_2$age_start)
+lines(data_final_2$age_start[j],loessMod10$fitted[j],col="red",lwd=3)
+abline(h=0)
+
+plot(data_final_2$age_start, data_final_2$ldl_bmi, main='LDL-C and BMI Correlation') 
+loessMod10 <- loess(ldl_bmi ~ age_start, data=data_final_2)
+j <- order(data_final_2$age_start)
+lines(data_final_2$age_start[j],loessMod10$fitted[j],col="red",lwd=3)
+abline(h=0)
+
+plot(data_final_2$age_start, data_final_2$sbp_fpg, main='SBP and FPG Correlation') 
+loessMod10 <- loess(sbp_fpg ~ age_start, data=data_final_2)
+j <- order(data_final_2$age_start)
+lines(data_final_2$age_start[j],loessMod10$fitted[j],col="red",lwd=3)
+abline(h=0)
+
+plot(data_final_2$age_start, data_final_2$ldl_fpg, main='LDL-C and FPG Correlation') 
+loessMod10 <- loess(ldl_fpg ~ age_start, data=data_final_2)
+j <- order(data_final_2$age_start)
+lines(data_final_2$age_start[j],loessMod10$fitted[j],col="red",lwd=3)
+abline(h=0)
+
+plot(data_final_2$age_start, data_final_2$bmi_fpg, main='FPG and BMI Correlation') 
+loessMod10 <- loess(bmi_fpg ~ age_start, data=data_final_2)
+j <- order(data_final_2$age_start)
+lines(data_final_2$age_start[j],loessMod10$fitted[j],col="red",lwd=3)
+abline(h=0)
 
 #Next, we remove folks on treatment. This is since those on treatment 
 #might have a low SBP or LDL-C and throw off correlation 
