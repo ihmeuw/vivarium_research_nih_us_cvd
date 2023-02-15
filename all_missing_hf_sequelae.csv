@@ -1,0 +1,32 @@
+sequela_id,sequela_name
+209,Asymptomatic and mild heart failure due to iron-deficiency anemia
+410,Mild heart failure due to cardiomyopathy and myocarditis
+567,Mild heart failure due to congenital heart anomalies
+23182,Mild heart failure due to hypothyroidism
+23190,Mild heart failure due to hyperthyroidism
+23245,Mild heart failure due to Severe amphetamine dependence
+23246,Mild heart failure due to Severe cocaine dependence
+210,Moderate heart failure due to iron-deficiency anemia
+411,Moderate heart failure due to cardiomyopathy and myocarditis
+568,Moderate heart failure due to congenital heart anomalies
+23183,Moderate heart failure due to hypothyroidism
+23191,Moderate heart failure due to hyperthyroidism
+23247,Moderate heart failure due to Severe amphetamine dependence
+23248,Moderate heart failure due to Severe cocaine dependence
+211,Severe heart failure due to iron-deficiency anemia
+412,Severe heart failure due to cardiomyopathy and myocarditis
+569,Severe heart failure due to congenital heart anomalies
+23184,Severe heart failure due to hypothyroidism
+23192,Severe heart failure due to hyperthyroidism
+23250,Severe heart failure due to Severe amphetamine dependence
+23251,Severe heart failure due to Severe cocaine dependence
+23251,Severe heart failure due to Severe cocaine dependence
+23185,"Controlled, medically managed heart failure due to hypothyroidism"
+418,Mild heart failure due to other cardiovascular diseases
+22933,Mild heart failure due to Pulmonary Arterial Hypertension
+419,Moderate heart failure due to other cardiovascular diseases
+22934,Moderate heart failure due to Pulmonary Arterial Hypertension
+420,Severe heart failure due to other cardiovascular diseases
+22935,Severe heart failure due to Pulmonary Arterial Hypertension
+5759,"Controlled, medically managed heart failure due to other cardiovascular disease"
+22932,"Controlled, medically managed heart failure due to Pulmonary Arterial Hypertension"
