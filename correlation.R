@@ -27,6 +27,29 @@ colnames(data)
 #bmi - based on measurements of height/weight 
 #lbxglu - FPG values 
 
+##Adding a section to check on rate of extra values for risk factors 
+nrow(data[data$bmi > 45])/nrow(data)
+nrow(data[data$bmi > 50])/nrow(data)
+nrow(data[data$bmi > 55])/nrow(data)
+nrow(data[data$bmi > 60])/nrow(data)
+
+nrow(data[data$bpsys > 150])/nrow(data)
+nrow(data[data$bpsys > 160])/nrow(data)
+nrow(data[data$bpsys > 170])/nrow(data)
+nrow(data[data$bpsys > 180])/nrow(data)
+nrow(data[data$bpsys > 200])/nrow(data)
+
+nrow(data[data$lbdldl > 174])/nrow(data)
+nrow(data[data$lbdldl > 193.35])/nrow(data)
+nrow(data[data$lbdldl > 212.7])/nrow(data)
+
+nrow(data[data$lbxglu > 288])/nrow(data)
+
+max(data$lbdldl, na.rm = TRUE)
+max(data$bpsys, na.rm = TRUE)
+max(data$bmi, na.rm = TRUE)
+max(data$lbxglu, na.rm = TRUE)
+
 #This is testing for correlation for the first time by age and includes p-values
 data_final_2 <- data.frame(matrix(ncol=14,nrow=0))
 colnames(data_final_2) <- c('age_start','age_end','sbp_ldl','sbp_ldl_pval','sbp_bmi','sbp_bmi_pval','ldl_bmi','ldl_bmi_pval','sbp_fpg','sbp_fpg_pval','ldl_fpg','ldl_fpg_pval','bmi_fpg','bmi_fpg_pval')
@@ -322,5 +345,15 @@ plot(data_final_4$year, data_final_4$ldl_fpg) #High in young people, 0 by 70
 plot(data_final_4$year, data_final_4$bmi_fpg) #Consistent for all ages 
 
 
+##Finding rates of LDL meds in older populations 
+data$choltx
+data2 <- data[!is.na(data$choltx)]
+nrow(data[(data$choltx == 1) & (data$age_year > 75)])/nrow(data[data$age_year > 75])
+nrow(data[(data$choltx == 1) & (data$age_year > 75)])/nrow(data[(data$choltx == 0 | data$choltx == 1) & (data$age_year > 75)])
+nrow(data2[(data2$choltx == 1) & (data2$age_year > 75)])/nrow(data2[data2$age_year > 75])
+nrow(data2[(data2$choltx == 1) & (data2$age_year > 70)])/nrow(data2[data2$age_year > 70])
 
+nrow(data[(data$choltx == 1) & (data$age_year > 80)])/nrow(data[data$age_year > 80])
+nrow(data2[(data2$choltx == 1) & (data2$age_year > 80)])/nrow(data2[data2$age_year > 80])
 
+nrow(data[data$age_year > 75])/nrow(data)

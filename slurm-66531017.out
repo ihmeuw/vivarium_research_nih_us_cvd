@@ -1,0 +1,199 @@
+readlink: missing operand
+Try 'readlink --help' for more information.
+
+--notebook-dir=/ihme/homes/lutzes/vivarium_research_nih_us_cvd
+WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
+[I 2023-04-10 07:22:42.132 ServerApp] jupyterlab | extension was successfully linked.
+[W 2023-04-10 07:22:42.140 NotebookApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-04-10 07:22:42.140 NotebookApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-04-10 07:22:42.140 NotebookApp] 'certfile' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-04-10 07:22:42.140 NotebookApp] 'notebook_dir' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-04-10 07:22:42.140 NotebookApp] 'notebook_dir' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-04-10 07:22:42.140 NotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-04-10 07:22:42.149 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-04-10 07:22:44.044 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-04-10 07:22:44.208 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-04-10 07:22:44.209 LabApp] JupyterLab extension loaded from /ihme/homes/lutzes/.conda/envs/vivarium_nih_us_cvd/lib/python3.8/site-packages/jupyterlab
+[I 2023-04-10 07:22:44.209 LabApp] JupyterLab application directory is /mnt/share/homes/lutzes/.conda/envs/vivarium_nih_us_cvd/share/jupyter/lab
+[I 2023-04-10 07:22:44.216 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-04-10 07:22:44.257 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-04-10 07:22:44.262 ServerApp] Serving notebooks from local directory: /ihme/homes/lutzes/vivarium_research_nih_us_cvd
+[I 2023-04-10 07:22:44.262 ServerApp] Jupyter Server 1.18.1 is running at:
+[I 2023-04-10 07:22:44.262 ServerApp] https://int-slurm-sarchive-p0004:28613/lab
+[I 2023-04-10 07:22:44.262 ServerApp]  or https://127.0.0.1:28613/lab
+[I 2023-04-10 07:22:44.262 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+Refresh (1 sec) https://int-slurm-sarchive-p0004:28613/lab
+
+This page should redirect you to a Jupyter application. If it doesn't, click
+here to go to Jupyter.
+
+[W 2023-04-10 07:22:59.536 ServerApp] SSL Error on 9 ('10.104.240.244', 58830): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:22:59.537 ServerApp] SSL Error on 8 ('10.104.240.244', 58829): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:23:03.329 ServerApp] SSL Error on 9 ('10.104.240.244', 58833): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:23:03.334 ServerApp] SSL Error on 8 ('10.104.240.244', 58834): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 07:23:03.539 LabApp] 302 GET /lab? (10.104.240.244) 3.58ms
+[W 2023-04-10 07:23:04.120 ServerApp] SSL Error on 10 ('10.104.240.244', 58836): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:23:04.157 ServerApp] SSL Error on 11 ('10.104.240.244', 58837): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:23:04.378 ServerApp] SSL Error on 9 ('10.104.240.244', 58839): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 07:23:12.364 ServerApp] 302 POST /login?next=%2Flab%3F (10.104.240.244) 3.53ms
+[W 2023-04-10 07:23:13.732 ServerApp] SSL Error on 15 ('10.104.240.244', 58844): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:23:13.814 ServerApp] SSL Error on 16 ('10.104.240.244', 58845): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:23:25.529 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2023-04-10 07:36:31.855 ServerApp] SSL Error on 8 ('10.104.240.244', 58995): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:36:32.206 ServerApp] SSL Error on 9 ('10.104.240.244', 58997): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:36:32.228 ServerApp] SSL Error on 10 ('10.104.240.244', 58998): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:36:32.243 ServerApp] SSL Error on 11 ('10.104.240.244', 58999): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:36:32.249 ServerApp] SSL Error on 13 ('10.104.240.244', 59000): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:36:32.383 ServerApp] SSL Error on 9 ('10.104.240.244', 59001): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 07:36:32.389 ServerApp] Kernel started: a688f0ab-e6fc-483d-ba02-93c535926ad6
+[W 2023-04-10 07:36:32.478 ServerApp] SSL Error on 20 ('10.104.240.244', 59004): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:36:32.479 ServerApp] SSL Error on 19 ('10.104.240.244', 59003): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:36:32.479 ServerApp] SSL Error on 18 ('10.104.240.244', 59002): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:36:32.484 ServerApp] SSL Error on 21 ('10.104.240.244', 59005): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 07:36:32.524 ServerApp] Kernel started: 0ba1fd75-8fa3-4e21-ade9-93b8afb27948
+[I 2023-04-10 07:36:32.715 ServerApp] Kernel started: de2da875-11ae-4404-81f2-401560573735
+[W 2023-04-10 07:36:34.409 ServerApp] SSL Error on 33 ('10.104.240.244', 59013): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:36:34.612 ServerApp] SSL Error on 33 ('10.104.240.244', 59014): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:36:34.821 ServerApp] SSL Error on 33 ('10.104.240.244', 59016): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:36:35.022 ServerApp] SSL Error on 33 ('10.104.240.244', 59017): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 07:36:35.540 ServerApp] Starting buffering for de2da875-11ae-4404-81f2-401560573735:eeed894b-5157-4d0b-a04a-e2aa398c1d3d
+[W 2023-04-10 07:36:35.854 ServerApp] SSL Error on 50 ('10.104.240.244', 59021): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 2cb4f330-2cd9-4440-93ff-0efbf8a5c668
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a0d482fe-9611-4cf5-99c4-d7c01809f8da
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8a18d407-2aa4-4930-b166-130f53455b75
+Exception in callback <TaskStepMethWrapper object at 0x7fdc40c53ca0>()
+handle: <Handle <TaskStepMethWrapper object at 0x7fdc40c53ca0>()>
+Traceback (most recent call last):
+  File "/ihme/homes/lutzes/.conda/envs/vivarium_nih_us_cvd/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-148' coro=<HTTP1ServerConnection._server_request_loop() running at /ihme/homes/lutzes/.conda/envs/vivarium_nih_us_cvd/lib/python3.8/site-packages/tornado/http1connection.py:842> cb=[IOLoop.add_future.<locals>.<lambda>() at /ihme/homes/lutzes/.conda/envs/vivarium_nih_us_cvd/lib/python3.8/site-packages/tornado/ioloop.py:687]> while another task <Task pending name='Task-174' coro=<PeriodicCallback._run() running at /ihme/homes/lutzes/.conda/envs/vivarium_nih_us_cvd/lib/python3.8/site-packages/tornado/ioloop.py:921> cb=[IOLoop.add_future.<locals>.<lambda>() at /ihme/homes/lutzes/.conda/envs/vivarium_nih_us_cvd/lib/python3.8/site-packages/tornado/ioloop.py:694]> is being executed.
+[W 2023-04-10 07:42:33.546 ServerApp] SSL Error on 8 ('10.104.240.244', 59225): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:42:33.553 ServerApp] SSL Error on 20 ('10.104.240.244', 59226): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:50:09.915 ServerApp] SSL Error on 8 ('10.104.240.244', 59331): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:50:09.916 ServerApp] SSL Error on 21 ('10.104.240.244', 59332): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:50:09.917 ServerApp] SSL Error on 20 ('10.104.240.244', 59330): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:50:30.647 ServerApp] SSL Error on 23 ('10.104.240.244', 59343): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 07:51:56.559 ServerApp] Kernel started: 81a5758e-d874-41bb-b6f4-4d78705475c9
+[W 2023-04-10 07:51:57.518 ServerApp] SSL Error on 69 ('10.104.240.244', 59366): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 07:51:57.651 ServerApp] SSL Error on 69 ('10.104.240.244', 59367): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f162000f-a3dd-406a-b691-a9f57c1ec4bd
+[I 2023-04-10 07:54:21.320 ServerApp] Starting buffering for 81a5758e-d874-41bb-b6f4-4d78705475c9:8c4e66ad-e36e-4e01-956a-331b2a45fe53
+[I 2023-04-10 07:56:25.258 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:00:30.031 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:02:34.059 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:04:38.258 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:06:43.165 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:08:46.957 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:10:50.857 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:12:55.081 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:14:59.051 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 08:17:03.119 ServerApp] SSL Error on 70 ('10.104.240.244', 62983): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 08:17:03.132 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:19:07.058 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:21:10.902 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:23:14.861 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:25:18.907 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 08:25:19.189 ServerApp] SSL Error on 70 ('10.104.240.244', 63055): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 08:27:23.098 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:29:27.198 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:31:31.233 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:33:36.109 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 08:33:49.932 ServerApp] SSL Error on 20 ('10.104.240.244', 63143): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 08:33:49.937 ServerApp] SSL Error on 21 ('10.104.240.244', 63144): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 08:35:39.995 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 08:36:24.428 ServerApp] SSL Error on 70 ('10.104.240.244', 63177): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 08:36:28.423 ServerApp] Saving file at /Model12_risks_VV.ipynb
+[I 2023-04-10 08:37:44.293 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 08:38:32.775 ServerApp] SSL Error on 70 ('10.104.240.244', 63207): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 08:38:35.512 ServerApp] Saving file at /Model12_risks_VV.ipynb
+[I 2023-04-10 08:39:52.134 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:41:56.192 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:44:00.527 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:46:05.129 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:48:09.224 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 08:50:14.371 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 08:50:38.512 ServerApp] SSL Error on 8 ('10.104.240.244', 63448): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 08:50:38.513 ServerApp] SSL Error on 20 ('10.104.240.244', 63449): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 08:52:19.190 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 08:53:35.380 ServerApp] SSL Error on 8 ('10.104.240.244', 63483): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 08:53:35.386 ServerApp] SSL Error on 20 ('10.104.240.244', 63484): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 08:53:45.702 ServerApp] SSL Error on 8 ('10.104.240.244', 63487): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 08:54:23.683 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 08:54:40.274 ServerApp] SSL Error on 8 ('10.104.240.244', 63515): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 08:54:40.280 ServerApp] SSL Error on 20 ('10.104.240.244', 63514): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 08:54:50.458 ServerApp] SSL Error on 8 ('10.104.240.244', 63519): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 08:54:50.562 ServerApp] SSL Error on 8 ('10.104.240.244', 63520): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 08:58:04.480 ServerApp] SSL Error on 20 ('10.104.240.244', 63563): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 08:58:04.481 ServerApp] SSL Error on 8 ('10.104.240.244', 63564): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:00:09.450 ServerApp] SSL Error on 8 ('10.104.240.244', 63585): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:00:09.469 ServerApp] SSL Error on 20 ('10.104.240.244', 63587): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:00:09.470 ServerApp] SSL Error on 70 ('10.104.240.244', 63586): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:01:31.743 ServerApp] SSL Error on 8 ('10.104.240.244', 63611): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:01:31.750 ServerApp] SSL Error on 20 ('10.104.240.244', 63610): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:01:42.044 ServerApp] SSL Error on 8 ('10.104.240.244', 63613): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:01:52.169 ServerApp] SSL Error on 8 ('10.104.240.244', 63615): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:02:02.303 ServerApp] SSL Error on 8 ('10.104.240.244', 63617): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 09:02:10.682 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 09:02:11.188 ServerApp] SSL Error on 8 ('10.104.240.244', 63619): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:02:32.598 ServerApp] SSL Error on 8 ('10.104.240.244', 63624): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:03:13.229 ServerApp] SSL Error on 8 ('10.104.240.244', 63630): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:03:23.347 ServerApp] SSL Error on 8 ('10.104.240.244', 63633): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:03:53.729 ServerApp] SSL Error on 8 ('10.104.240.244', 63638): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:04:03.846 ServerApp] SSL Error on 8 ('10.104.240.244', 63640): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:04:13.999 ServerApp] SSL Error on 8 ('10.104.240.244', 63642): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:04:14.089 ServerApp] SSL Error on 20 ('10.104.240.244', 63643): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 09:04:14.399 ServerApp] SSL Error on 70 ('10.104.240.244', 63646): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 09:04:14.788 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 09:06:16.367 ServerApp] SSL Error on 70 ('10.104.240.244', 63668): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 09:06:18.795 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:08:22.851 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:09:16.643 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:11:20.919 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:11:47.039 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:13:52.279 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 09:15:55.908 ServerApp] SSL Error on 70 ('10.104.240.244', 63772): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 09:15:56.476 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 09:16:56.836 ServerApp] SSL Error on 70 ('10.104.240.244', 63781): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 09:16:59.345 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:19:03.399 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:21:07.550 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 09:23:11.542 ServerApp] SSL Error on 70 ('10.104.240.244', 63835): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 09:23:11.554 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 09:25:13.434 ServerApp] SSL Error on 70 ('10.104.240.244', 63853): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 09:25:15.869 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:27:19.911 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:29:23.941 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:31:28.061 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:33:32.213 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:35:36.185 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:37:40.372 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:39:45.334 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:41:50.502 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:43:55.225 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:46:00.408 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:48:05.242 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:50:10.177 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:52:14.322 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:54:19.248 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:56:24.313 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 09:58:29.215 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 10:00:33.191 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 10:02:42.446 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 10:05:31.879 ServerApp] SSL Error on 21 ('10.104.240.244', 64263): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 10:05:31.880 ServerApp] SSL Error on 20 ('10.104.240.244', 64264): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 10:06:35.747 ServerApp] SSL Error on 20 ('10.104.240.244', 64282): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 10:06:35.748 ServerApp] SSL Error on 21 ('10.104.240.244', 64281): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 10:06:47.308 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 10:08:48.522 ServerApp] SSL Error on 70 ('10.104.240.244', 64311): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 10:08:51.617 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 10:09:27.016 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 10:11:13.789 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[W 2023-04-10 10:11:14.208 ServerApp] SSL Error on 80 ('10.104.240.244', 64348): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 10:11:14.214 ServerApp] SSL Error on 70 ('10.104.240.244', 64349): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[W 2023-04-10 10:12:17.173 ServerApp] SSL Error on 70 ('10.104.240.244', 64362): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1131)
+[I 2023-04-10 10:12:20.666 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
+[I 2023-04-10 10:14:25.400 ServerApp] Saving file at /Interactive_Model12_VV.ipynb
