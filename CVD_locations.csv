@@ -1,0 +1,53 @@
+location_id,location_name,abbreviation
+102,US,US
+523,Alabama,AL
+524,Alaska,AK
+525,Arizona,AZ
+526,Arkansas,AR
+527,California,CA
+528,Colorado,CO
+529,Connecticut,CT
+530,Delaware,DE
+531,District of Columbia,DC
+532,Florida,FL
+533,Georgia,GA
+534,Hawaii,HI
+535,Idaho,ID
+536,Illinois,IL
+537,Indiana,IN
+538,Iowa,IA
+539,Kansas,KS
+540,Kentucky,KY
+541,Louisiana,LA
+542,Maine,ME
+543,Maryland,MD
+544,Massachusetts,MA
+545,Michigan,MI
+546,Minnesota,MN
+547,Mississippi,MS
+548,Missouri,MO
+549,Montana,MT
+550,Nebraska,NE
+551,Nevada,NV
+552,New Hampshire,NH
+553,New Jersey,NJ
+554,New Mexico,NM
+555,New York,NY
+556,North Carolina,NC
+557,North Dakota,ND
+558,Ohio,OH
+559,Oklahoma,OK
+560,Oregon,OR
+561,Pennsylvania,PA
+562,Rhode Island,RI
+563,South Carolina,SC
+564,South Dakota,SD
+565,Tennessee,TN
+566,Texas,TX
+567,Utah,UT
+568,Vermont,VT
+569,Virginia,VA
+570,Washington,WA
+571,West Virginia,WV
+572,Wisconsin,WI
+573,Wyoming,WY
