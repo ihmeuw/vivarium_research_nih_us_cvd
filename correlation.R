@@ -132,6 +132,21 @@ data[,choltx:=ifelse(highchol==0 & is.na(cholmeds), 0, cholmeds)]
 data[,tx:=ifelse(sbptx==0 & choltx==0, "none", ifelse(sbptx==1 & choltx==0, "bponly",
                                                       ifelse(sbptx==0 & choltx==1, "cholonly", ifelse(sbptx==1 & choltx==1, "both", NA))))]
 data[,tx2:=factor(tx, levels=c("none", "bponly", "cholonly", "both"))]
+
+
+nrow(data[(data$sbptx == 1)]) / nrow(data[(data$bpsys > 130) | (data$sbptx == 1)])
+
+
+nrow(data[data$bpsys > 130])/nrow(data)
+
+
+
+
+
+
+
+
+
 data2 <- data[data$tx2 == 'none']
 
 data_final_3 <- data.frame(matrix(ncol=14,nrow=0))
